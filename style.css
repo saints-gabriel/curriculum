@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(0, 0, 59);
+    }
+
+* {
+    font-family: "Jetbrains Mono";
+    color: rgb(150, 150, 255)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.30fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+        
+.grid-item {
+    background: rgba(75, 75, 248, 0.315);
+    border-radius: 8px;
+    padding: 1cm;
+}
+
+.crop {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.crop img {
+    width: 300px;
+    height: 510px;
+}
