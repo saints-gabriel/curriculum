@@ -4,7 +4,6 @@ body {
 
 * {
     font-family: "Jetbrains Mono";
-    color: rgb(150, 150, 255)
 }
 
 .grid-container {
@@ -17,11 +16,17 @@ body {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-        
+
 .grid-item {
+    color: rgb(150, 150, 255);
     background: rgba(75, 75, 248, 0.315);
     border-radius: 8px;
     padding: 1cm;
+}
+
+.light-mode .grid-item {
+  background-color: rgba(187, 187, 187, 0.31);
+  color: black;
 }
 
 .crop {
@@ -34,4 +39,15 @@ body {
 .crop img {
     width: 300px;
     height: 510px;
+}
+
+.mode {
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0); 
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
